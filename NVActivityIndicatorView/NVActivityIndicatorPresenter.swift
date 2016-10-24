@@ -140,7 +140,7 @@ public class NVActivityIndicatorPresenter {
                 y: activityIndicatorView.center.y + actualSize.height)
             label.textAlignment = .center
             label.text = message
-            label.font = UIFont.boldSystemFont(ofSize: 20)
+            label.font = UIFont.systemFont(ofSize: 14)
             label.textColor = activityIndicatorView.color
             activityContainer.addSubview(label)
         }
